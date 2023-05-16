@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="search-area">
+        <div class="search-form">
+          <form action="" class="form">
+            <input
+              type="text"
+              name="search-input"
+              id="search-input"
+              class="search-input"
+            />
+
+            <div class="radio-buttons">
+              <input type="radio" name="search-tech" value="sortedlist" />
+              <label for="html">Binary</label><br />
+              <input type="radio" name="search-tech" value="list" />
+              <label for="css">Linear</label><br />
+              <input type="radio" name="search-tech" value="map" />
+              <label for="javascript">Hash-based</label>
+            </div>
+            <button name="btn" id="btn" class="btn">search</button>
+            <button name="btn" id="btn" class="btn-cart">cart</button>
+          </form>
+        </div>
+        <div class="table">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">no:</th>
+                <th scope="col">File name</th>
+                <th scope="col">Data</th>
+              </tr>
+            </thead>
+            <tbody class="tBody"></tbody>
+          </table>
+        </div>
+      </div>
+      <div id="chart_div">
+        <input type="button" value="" />
+      </div>
+    </main>
+    <script
+      type="text/javascript"
+      src="https://www.gstatic.com/charts/loader.js"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

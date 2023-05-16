@@ -1,0 +1,126 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  color: #333;
+  height: 100vh;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex-direction: column;
+  max-width: 1200px;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+.search-form {
+  margin-bottom: 2rem;
+}
+
+.search-input {
+  font-size: 2rem;
+  margin-right: 2rem;
+  padding: 4px;
+  border: 2px solid #3f87a6;
+}
+
+.search-input:hover {
+  border: 2px solid #3f87ff;
+}
+
+.btn {
+  margin-left: 2.5rem;
+  font-size: 2rem;
+  border: 1;
+  color: #3f87a6;
+  background-color: #e4f0f5;
+  padding: 1rem;
+  border-radius: 7px;
+  border: 2px solid #3f87a6;
+}
+
+.btn:hover {
+  border: 2px solid #3f87ff;
+}
+
+.btn-cart {
+  font-size: 2rem;
+  border: 1;
+  color: #3f87a6;
+  background-color: #e4f0f5;
+  padding: 1rem;
+  border-radius: 7px;
+  border: 2px solid #3f87a6;
+  margin-left: 2rem;
+}
+
+.radio-buttons {
+  margin-left: 0.5rem;
+}
+
+label {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.table {
+  width: 100%;
+  overflow: scroll;
+  height: 390px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid rgb(200, 200, 200);
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 2rem;
+}
+
+thead {
+  background-color: #3f87a6;
+  color: #fff;
+}
+
+tbody {
+  background-color: #e4f0f5;
+}
+
+td,
+th {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 5px 10px;
+}
+
+td {
+  text-align: center;
+}
+
+.reading-area {
+  justify-self: center;
+}
+
+.chart-div {
+  align-self: center;
+}
